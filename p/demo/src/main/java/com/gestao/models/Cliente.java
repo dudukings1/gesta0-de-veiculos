@@ -3,7 +3,7 @@ package com.gestao.models;
 public class Cliente {
     
     private String nome;
-    private int cpf;
+    private String cpf;
     private int cnh;
     private int pontoscnh;
     private String email;
@@ -13,10 +13,14 @@ public class Cliente {
 
     public Cliente() {}
     
-    public Cliente(String nome, int cpf, int cnh, int pontoscnh, String email,String senha, String bloq) {
+    public Cliente(String nome, String cpf, int cnh, int pontoscnh, String email,String senha, String bloq) {
         this.nome = nome;
         this.cpf = cpf;
-
+        this.cnh = cnh;
+        this.pontoscnh = pontoscnh; 
+        this.email = email;
+        this.senha = senha;
+        this.bloq = bloq;
     }
     public int getCnh() {
     return cnh;
@@ -40,7 +44,7 @@ public String getBloq() {
     public String getNome() {
         return nome;
     }
-    public int getCpf() {
+    public String getCpf() {
         return cpf;
     }
     // SETTERS
@@ -67,7 +71,19 @@ public void setBloq(String bloq) {
     public void setNome(String nome) {
         this.nome = nome;
     }
-    public void setCpf(int cpf) {
+    public void setCpf(String cpf) {
         this.cpf = cpf;
+}
+@Override
+public String toString() {
+    return "Cliente{" +
+            "nome='" + nome + '\'' +
+            ", cpf='" + cpf + '\'' +
+            ", cnh=" + cnh +
+            ", pontoscnh=" + pontoscnh +
+            ", email='" + email + '\'' +
+            ", senha='" + senha + '\'' +
+            ", bloq='" + bloq + '\'' +
+            '}';
 }
 }

@@ -1,1 +1,20 @@
-{"nome":"","cpf":235}
+[
+  {
+    "nome": "Eduardo Silva",
+    "cpf": "235",
+    "cnh": 123456789,
+    "pontoscnh": 0,
+    "email": "eduardo@email.com",
+    "senha": "123456",
+    "bloq": "nao"
+  },
+  {
+    "nome": "Maria Souza",
+    "cpf": "235",
+    "cnh": 987654321,
+    "pontoscnh": 5,
+    "email": "maria@email.com",
+    "senha": "654321",
+    "bloq": "nao"
+  }
+]

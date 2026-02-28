@@ -1,1 +1,1 @@
-[{"nome":"bob","placa":234,"kmrodados":120.21,"disponivel":true},{"nome":"bob2","placa":543,"kmrodados":120.21,"disponivel":true}]
+[{"nome":"bob","placa":234,"kmrodados":120.21,"disponivel":true,"marca":null,"modelo":null,"ano":0},{"nome":"bob2","placa":543,"kmrodados":120.21,"disponivel":true,"marca":null,"modelo":null,"ano":0},{"nome":"bobo","placa":123,"kmrodados":123.0,"disponivel":true,"marca":null,"modelo":null,"ano":0}]

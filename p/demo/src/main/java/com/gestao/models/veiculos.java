@@ -6,14 +6,20 @@ public class veiculos {
     private int placa;
     private double kmrodados;
     private boolean disponivel;
+    private String marca;
+    private String modelo;
+    private int ano;
 
     public veiculos() {}
 
-    public veiculos(double kmrodados, int placa, String nome, boolean disponivel) {
+    public veiculos(double kmrodados, int placa, String nome, boolean disponivel, String marca, String modelo, int ano) {
         this.nome = nome;
         this.kmrodados = kmrodados;
         this.placa = placa;
         this.disponivel = disponivel;
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
     }
     
     // GET
@@ -30,7 +36,15 @@ public class veiculos {
         public double getKmrodados() {
             return kmrodados;
         }
-    
+        public String getMarca() {
+            return marca;
+        }
+        public String getModelo() {
+            return modelo;
+        }
+        public int getAno() {
+            return ano;
+        }
         // SET
         
     public void setDisponivel(boolean disponivel) {
@@ -45,4 +59,13 @@ public class veiculos {
         public void setKmrodados(double kmrodados) {
             this.kmrodados = kmrodados;
         }
-}
+        public void setMarca(String marca) {
+            this.marca = marca;
+        }
+        public void setModelo(String modelo) {
+            this.modelo = modelo;
+        }
+        public void setAno(int ano) {
+            this.ano = ano;
+        }
+}   
